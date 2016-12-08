@@ -1,0 +1,9 @@
+---
+applications:
+
+- name: PoolShoppe
+  path: /target/swagger-spring-1.0.0.jar
+  memory: 256M
+  health-check-type: none 
+  services:
+    - postgresqlDb

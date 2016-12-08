@@ -1,0 +1,11 @@
+### Types of offers 
+
+| Category number | Offer description                                 | Targetted |
+|-----------------|---------------------------------------------------|-----------|
+| 1               | Flat x% of on item a                              | No        |
+| 2               | Flat x% of on purchase > Rs.m                     | Yes       |
+| 3               | Buy i get j more                                  | Yes       |
+| 4               | Get item b on purchase of item a                  | Yes       |
+| 5               | Get x% of paying through z bank/wallet            | Yes       |
+| 6               | Get coupon a of purchase > Rs.m                   | Yes       |
+| 7               | Buy i get extra x% on j more                      | Yes       |

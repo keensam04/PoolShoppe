@@ -1,0 +1,31 @@
+#offers {
+	margin-top : $offers_section_margin_top;
+	padding	: $offers_section_padding;
+	height:100%;
+	overflow : auto;
+	& > .card {
+	  & > .item {
+	  	.offer-details {
+	  		font-size: 22px;
+    		font-weight: 400;
+	  	}
+	  	.user-interest {
+	  		.ion-heart {
+	  			color : #e91e1e;
+	  			font-size : 20px;
+	  		}	
+	  		.users-count {
+	  			font-size :20px;
+	  		}
+	  	}
+	  }
+	}
+
+	#offers footer {
+		position: absolute;
+	    bottom: 0;
+	    z-index: 999;
+	    width: 100%;
+	}
+
+}

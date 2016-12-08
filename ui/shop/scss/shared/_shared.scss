@@ -1,0 +1,28 @@
+#wrapper {
+	::-webkit-scrollbar { 
+	    display: none; 
+	}
+	ion-nav-view  {
+		padding : 100px;
+		ion-view {
+			background-color : $background-color; 
+		}
+			
+		.bar{
+			background-color : $header_background_color !important;
+		}	
+
+		.bar.bar-stable .title {
+		    color: #fff;
+		}
+
+		.bar-stable .button.button-icon {
+			color : #fff;
+		}
+
+		.header-item {
+			color:#fff;
+		}
+	}		
+}
+

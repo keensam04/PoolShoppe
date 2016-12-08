@@ -1,0 +1,72 @@
+<ion-view view-title="Details">
+	<section id="details_offline">		
+		<div class="merchant-description ">
+			<div class="row item ">
+				<div class="col-50">
+					<span class="merchant-name"> {{selectedOffer.provider}}</span>
+				</div>
+				<div class="col-50">
+					<img class="pull-right" ng-src="{{selectedOffer.providerLogo}}" height="30" width="30">
+				</div>
+			</div>	
+		</div>
+		<div class="card offer">
+			<div class="item item-text-wrap">
+				<div class="row">
+					<div class="col">
+						<div class="offer-details">
+							<div class="offer-name">
+								<h2 >{{selectedOffer.title}}</h2>
+							</div>
+							<div class="offer-description">
+								<p> <span>{{selectedOffer.description}}</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card cart">
+			<div class="item item-text-wrap">
+				 <div class="row">
+				 	<div class="col-50">
+				 		<span>Share Buddies</span>
+				 	</div>
+				 </div>
+			</div>
+			
+			<div  class="card cart-details"  ng-repeat="buddy in buddies" ng-if="buddy.status==='AVAILABLE'">
+				<div class="item item-text-wrap" ng-click="navigateToChatPage(buddy)"> 
+				  	<div class="row">
+				  		<div class="col-xs-3">				  			
+				  			<img height="70" width="70" ng-src="img/user.png">				  			
+				  		</div>
+				  		<div class="col-xs-9">
+				  			<p>
+				  				<div class="row">
+				  					<div class="col">
+				  						<h2 ng-bind="buddy.name"></h2>
+				  					</div>
+				  				</div>
+				  			</p>
+				  			<p>
+				  				<div class="row">
+					  				<div class="col-50">
+					  					<span>{{buddy.age}} years, </span>
+				  						<span ng-bind="buddy.gender"></span>
+					  				</div>
+				  					<div class="col-50">
+				  						<div class="rating pull-right">
+				  							<span style="font-size:18px" ng-bind="buddy.rating"></span>
+				  							<span style="font-size:18px" class="glyphicon glyphicon-star"></span>	
+				  						</div>	
+				  					</div>
+				  				</div>
+				  			</p>
+				  		</div>					  			  		
+				  	</div>	 				  	
+				</div>	  
+			</div>
+		</div>
+	</section>
+</ion-view>

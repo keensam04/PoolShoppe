@@ -1,0 +1,18 @@
+#address {
+	margin-top : $offers_section_margin_top;
+	padding	: $offers_section_padding;
+	height:100%;
+	overflow : auto;
+	
+	.pick-up-location , .drop-location {
+		.form-group{
+			margin-left :20px;
+		}
+		.addrss {
+			display : inline-block;
+			margin-left :10px;
+		}
+	}
+
+
+}

@@ -1,0 +1,66 @@
+#details {
+	margin-top : $offers_section_margin_top;
+	padding	: $offers_section_padding;
+	height:100%;
+	overflow : auto;
+	padding-bottom : 65px;
+
+	.merchant-description {
+		background-color : #fff;
+		padding : $offers_section_padding;
+		& > .item  {
+			border : #fff;
+			.merchant-name {
+				color: #949494;
+    			font-weight: 400;
+			}
+		}
+	}
+
+	.offer {
+		.item {
+			padding: 15px !important;
+		}	
+		.offer-name {
+			& > .h2 {
+				font-size: 20px;
+			}
+		}
+		.offer-description {
+			margin-top : 10px;
+		}	
+	}
+
+	.cart {
+		background-color : #d4e8d4;
+		.item {
+		  	.row {
+		  		.col-50 {
+		  			.glyphicon-shopping-cart {
+		  				font-size: 25px;
+		  			}
+		  		}
+		  	}
+		}
+		& > .cart-details {
+			.row {
+				.product-name , .product-price {
+					font-size : 20px;
+				}
+			}
+		}
+		.add-product-section {
+			padding:12px;
+		}
+	}
+	footer {
+		position : fixed;
+		left : 0;
+		bottom :0;
+		width : 100%;
+		z-index	: 999;
+		& > button  {
+			margin : 0 !important;
+		}
+	}
+}

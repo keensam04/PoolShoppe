@@ -1,0 +1,802 @@
+Connected, dumping recent logs for app PoolShoppe in org trial / space i311157 as i311157...
+
+2016-12-02T20:07:12.99+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:405)
+2016-12-02T20:10:03.92+0530 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2016-12-02T20:10:03.92+0530 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2016-12-02T20:10:03.92+0530 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2016-12-02T20:10:04.03+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:04.035  INFO 12 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2016-12-02T20:10:04.14+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:04.146  INFO 12 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2016-12-02T20:10:05.85+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:05.857  INFO 12 --- [           main] urceCloudServiceBeanFactoryPostProcessor : No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+2016-12-02T20:10:06.52+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:06.521  INFO 12 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-12-02T20:10:06.63+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:06.638  INFO 12 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-02T20:10:07.04+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:07.048  INFO 12 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-02T20:10:07.05+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:07.052  INFO 12 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-02T20:10:07.05+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:07.053  INFO 12 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-02T20:10:07.13+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:07.135  INFO 12 --- [           main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: org.postgresql.Driver
+2016-12-02T20:10:07.74+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:07.748  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String io.swagger.configuration.HomeController.index()
+2016-12-02T20:10:07.75+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:07.755  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-12-02T20:10:07.78+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:07.783  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-12-02T20:10:08.04+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.048  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@700a4fd3: startup date [Fri Dec 02 14:40:04 UTC 2016]; root of context hierarchy
+2016-12-02T20:10:08.15+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.150  INFO 12 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T20:10:08.33+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.338  INFO 12 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-02T20:10:08.34+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.347  INFO 12 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-12-02T20:10:08.34+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.347  INFO 12 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2016-12-02T20:10:08.36+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.365  INFO 12 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2016-12-02T20:10:08.37+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.374  INFO 12 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2016-12-02T20:10:08.65+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.649  INFO 12 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-12-02T20:10:08.74+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.742  INFO 12 --- [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2016-12-02T20:10:08.80+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.808  INFO 12 --- [           main] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.832 ERROR 12 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT java.lang.IllegalStateException: Failed to execute CommandLineRunner
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:809) ~[spring-boot-1.3.5.RELEASE.jar!/:1.3.5.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:790) ~[spring-boot-1.3.5.RELEASE.jar!/:1.3.5.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:777) ~[spring-boot-1.3.5.RELEASE.jar!/:1.3.5.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-1.3.5.RELEASE.jar!/:1.3.5.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at io.swagger.Swagger2SpringBoot.main(Swagger2SpringBoot.java:28) [app/:na]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:54) [app/:na]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT Caused by: org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [CREATE TABLE OnlinePlaceOrderTable(OrderId VARCHAR(100), CustId VARCHAR(100), ProductId VARCHAR(100), Addresspincode VARCHAR(10), Addresslocation VARCHAR(100), Time TIMESTAMP, Status VARCHAR(24), ShareId VARCHAR(100))]; nested exception is org.postgresql.util.PSQLException: ERROR: relation "onlineplaceordertable" already exists
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:99) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:416) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:440) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at io.swagger.Swagger2SpringBoot.createDatabaseTable(Swagger2SpringBoot.java:44) [app/:na]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at io.swagger.Swagger2SpringBoot.run(Swagger2SpringBoot.java:24) [app/:na]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:806) ~[spring-boot-1.3.5.RELEASE.jar!/:1.3.5.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	... 10 common frames omitted
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT Caused by: org.postgresql.util.PSQLException: ERROR: relation "onlineplaceordertable" already exists
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2155) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:288) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:430) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:356) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:303) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:289) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:266) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:262) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate$1ExecuteStatementCallback.doInStatement(JdbcTemplate.java:432) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:405) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 	... 14 common frames omitted
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.835  INFO 12 --- [           main] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/home/vcap/app/, jar:file:/home/vcap/app/lib/jul-to-slf4j-1.7.21.jar!/, jar:file:/home/vcap/app/lib/springfox-swagger-ui-2.5.0.jar!/, jar:file:/home/vcap/app/lib/jboss-logging-3.3.0.Final.jar!/, jar:file:/home/vcap/app/lib/spring-core-4.2.6.RELEASE.jar!/, jar:file:/home/vcap/app/lib/tomcat-embed-core-8.0.33.jar!/, jar:file:/home/vcap/app/lib/postgresql_jdbc-9.4.1212.jar!/, jar:file:/home/vcap/app/lib/spring-plugin-core-1.2.0.RELEASE.jar!/, jar:file:/home/vcap/app/lib/spring-boot-starter-1.3.5.RELEASE.jar!/, jar:file:/home/vcap/app/lib/spring-webmvc-4.2.6.RELEASE.jar!/, jar:file:/home/vcap/app/lib/jackson-databind-2.6.6.jar!/, jar:file:/home/vcap/app/lib/spring-tx-4.2.6.RELEASE.jar!/, jar:file:/home/vcap/app/lib/spring-jdbc-4.1.6.RELEASE.jar!/, jar:file:/home/vcap/app/lib/swagger-annotations-1.5.9.jar!/, jar:file:/home/vcap/app/lib/spring_auto_reconfiguration-1.10.0_RELEASE.jar!/, jar:file:/home/vcap/app/lib/spring-boot-starter-tomcat-1.3.5.RELEASE.jar!/, jar:file:/home/vcap/app/lib/jackson-core-2.6.6.jar!/, jar:file:/home/vcap/app/lib/spring-context-4.2.6.RELEASE.jar!/, jar:file:/home/vcap/app/lib/tomcat-embed-el-8.0.33.jar!/, jar:file:/home/vcap/app/lib/springfox-swagger2-2.5.0.jar!/, jar:file:/home/vcap/app/lib/springfox-swagger-common-2.5.0.jar!/, jar:file:/home/vcap/app/lib/guava-18.0.jar!/, jar:file:/home/vcap/app/lib/snakeyaml-1.16.jar!/, jar:file:/home/vcap/app/lib/spring-aop-4.2.6.RELEASE.jar!/, jar:file:/home/vcap/app/lib/jackson-datatype-joda-2.6.6.jar!/, jar:file:/home/vcap/app/lib/spring-boot-starter-logging-1.3.5.RELEASE.jar!/, jar:file:/home/vcap/app/lib/tomcat-embed-logging-juli-8.0.33.jar!/, jar:file:/home/vcap/app/lib/springfox-schema-2.5.0.jar!/, jar:file:/home/vcap/app/lib/mapstruct-1.0.0.Final.jar!/, jar:file:/home/vcap/app/lib/spring-boot-starter-web-1.3.5.RELEASE.jar!/, jar:file:/home/vcap/app/lib/tomcat-embed-websocket-8.0.33.jar!/, jar:file:/home/vcap/app/lib/swagger-models-1.5.9.jar!/, jar:file:/home/vcap/app/lib/classmate-1.3.1.jar!/, jar:file:/home/vcap/app/lib/spring-plugin-metadata-1.2.0.RELEASE.jar!/, jar:file:/home/vcap/app/lib/spring-boot-starter-validation-1.3.5.RELEASE.jar!/, jar:file:/home/vcap/app/lib/joda-time-2.8.2.jar!/, jar:file:/home/vcap/app/lib/spring-expression-4.2.6.RELEASE.jar!/, jar:file:/home/vcap/app/lib/logback-core-1.1.7.jar!/, jar:file:/home/vcap/app/lib/jcl-over-slf4j-1.7.21.jar!/, jar:file:/home/vcap/app/lib/springfox-spi-2.5.0.jar!/, jar:file:/home/vcap/app/lib/spring-boot-1.3.5.RELEASE.jar!/, jar:file:/home/vcap/app/lib/slf4j-api-1.7.21.jar!/, jar:file:/home/vcap/app/lib/validation-api-1.1.0.Final.jar!/, jar:file:/home/vcap/app/lib/springfox-spring-web-2.5.0.jar!/, jar:file:/home/vcap/app/lib/springfox-core-2.5.0.jar!/, jar:file:/home/vcap/app/lib/spring-beans-4.2.6.RELEASE.jar!/, jar:file:/home/vcap/app/lib/spring-boot-autoconfigure-1.3.5.RELEASE.jar!/, jar:file:/home/vcap/app/lib/log4j-over-slf4j-1.7.21.jar!/, jar:file:/home/vcap/app/lib/jackson-annotations-2.6.6.jar!/, jar:file:/home/vcap/app/lib/hibernate-validator-5.2.4.Final.jar!/, jar:file:/home/vcap/app/lib/aopalliance-1.0.jar!/, jar:file:/home/vcap/app/lib/spring-web-4.2.6.RELEASE.jar!/, jar:file:/home/vcap/app/lib/logback-classic-1.1.7.jar!/]
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.835  INFO 12 --- [           main] utoConfigurationReportLoggingInitializer : 
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT Error starting ApplicationContext. To display the auto-configuration report enable debug logging (start with --debug)
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.836  INFO 12 --- [           main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@700a4fd3: startup date [Fri Dec 02 14:40:04 UTC 2016]; root of context hierarchy
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.837  INFO 12 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2016-12-02T20:10:08.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:40:08.839  INFO 12 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR Exception in thread "main" java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:62)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at java.lang.Thread.run(Thread.java:745)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR Caused by: java.lang.reflect.InvocationTargetException
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:54)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	... 1 more
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:809)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:790)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:777)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at io.swagger.Swagger2SpringBoot.main(Swagger2SpringBoot.java:28)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	... 6 more
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR Caused by: org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [CREATE TABLE OnlinePlaceOrderTable(OrderId VARCHAR(100), CustId VARCHAR(100), ProductId VARCHAR(100), Addresspincode VARCHAR(10), Addresslocation VARCHAR(100), Time TIMESTAMP, Status VARCHAR(24), ShareId VARCHAR(100))]; nested exception is org.postgresql.util.PSQLException: ERROR: relation "onlineplaceordertable" already exists
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:99)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:416)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:440)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at io.swagger.Swagger2SpringBoot.createDatabaseTable(Swagger2SpringBoot.java:44)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at io.swagger.Swagger2SpringBoot.run(Swagger2SpringBoot.java:24)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:806)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	... 10 more
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR Caused by: org.postgresql.util.PSQLException: ERROR: relation "onlineplaceordertable" already exists
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2155)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:288)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:430)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:356)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:303)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:289)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:266)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:262)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.jdbc.core.JdbcTemplate$1ExecuteStatementCallback.doInStatement(JdbcTemplate.java:432)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:405)
+2016-12-02T20:10:08.90+0530 [APP/PROC/WEB/0]ERR 	... 14 more
+2016-12-02T20:10:08.92+0530 [APP/PROC/WEB/0]OUT Exit status 0
+2016-12-02T20:10:08.93+0530 [CELL/0]     OUT Exit status 0
+2016-12-02T20:10:08.97+0530 [CELL/0]     OUT Destroying container
+2016-12-02T20:10:09.77+0530 [CELL/0]     OUT Successfully destroyed container
+2016-12-02T20:12:22.98+0530 [API/0]      OUT Process has crashed with type: "web"
+2016-12-02T20:12:22.98+0530 [API/0]      OUT App instance exited with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Codependent step exited\n* cancelled", "crash_count"=>6, "crash_timestamp"=>1480689742940911471, "version"=>"a1b00fc2-048d-4440-a588-26b2d3eabb51"}
+2016-12-02T20:23:40.42+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"name"=>"PoolShoppe", "memory"=>256, "environment_json"=>"PRIVATE DATA HIDDEN", "health_check_type"=>"none"})
+2016-12-02T20:24:07.89+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"state"=>"STARTED"})
+2016-12-02T20:24:09.28+0530 [STG/0]      OUT Downloading sap_java_buildpack...
+2016-12-02T20:24:09.28+0530 [STG/0]      OUT Downloading ruby_buildpack...
+2016-12-02T20:24:09.28+0530 [STG/0]      OUT Downloading staticfile_buildpack...
+2016-12-02T20:24:09.28+0530 [STG/0]      OUT Downloading java_buildpack...
+2016-12-02T20:24:09.29+0530 [STG/0]      OUT Downloading python_buildpack...
+2016-12-02T20:24:09.30+0530 [STG/0]      OUT Downloaded java_buildpack
+2016-12-02T20:24:09.30+0530 [STG/0]      OUT Downloading nodejs_buildpack...
+2016-12-02T20:24:09.30+0530 [STG/0]      OUT Downloaded sap_java_buildpack
+2016-12-02T20:24:09.30+0530 [STG/0]      OUT Downloading go_buildpack...
+2016-12-02T20:24:09.30+0530 [STG/0]      OUT Downloaded ruby_buildpack
+2016-12-02T20:24:09.30+0530 [STG/0]      OUT Downloading php_buildpack...
+2016-12-02T20:24:09.31+0530 [STG/0]      OUT Downloaded staticfile_buildpack
+2016-12-02T20:24:09.31+0530 [STG/0]      OUT Downloading binary_buildpack...
+2016-12-02T20:24:09.31+0530 [STG/0]      OUT Downloaded python_buildpack
+2016-12-02T20:24:09.32+0530 [STG/0]      OUT Downloaded go_buildpack
+2016-12-02T20:24:09.32+0530 [STG/0]      OUT Downloaded binary_buildpack
+2016-12-02T20:24:09.33+0530 [STG/0]      OUT Downloaded nodejs_buildpack
+2016-12-02T20:24:09.34+0530 [STG/0]      OUT Downloaded php_buildpack
+2016-12-02T20:24:09.34+0530 [STG/0]      OUT Creating container
+2016-12-02T20:24:10.38+0530 [STG/0]      OUT Successfully created container
+2016-12-02T20:24:10.38+0530 [STG/0]      OUT Downloading app package...
+2016-12-02T20:24:11.09+0530 [STG/0]      OUT Downloaded app package (15.4M)
+2016-12-02T20:24:11.09+0530 [STG/0]      OUT Downloading build artifacts cache...
+2016-12-02T20:24:12.55+0530 [STG/0]      OUT Downloaded build artifacts cache (45.5M)
+2016-12-02T20:24:12.55+0530 [STG/0]      OUT Staging...
+2016-12-02T20:24:17.46+0530 [STG/0]      OUT -----> Java Buildpack Version: v3.9 | https://github.com/cloudfoundry/java-buildpack.git#b050954
+2016-12-02T20:24:18.43+0530 [STG/0]      OUT -----> Downloading Open Jdk JRE 1.8.0_101 from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_101.tar.gz (found in cache)
+2016-12-02T20:24:19.50+0530 [STG/0]      OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.0s)
+2016-12-02T20:24:19.91+0530 [STG/0]      OUT -----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (found in cache)
+2016-12-02T20:24:19.93+0530 [STG/0]      OUT        Memory Settings: -Xms681574K -XX:MaxMetaspaceSize=104857K -Xss349K -Xmx681574K -XX:MetaspaceSize=104857K
+2016-12-02T20:24:20.35+0530 [STG/0]      OUT -----> Downloading Postgresql JDBC 9.4.1212 from https://java-buildpack.cloudfoundry.org/postgresql-jdbc/postgresql-jdbc-9.4.1212.jar (found in cache)
+2016-12-02T20:24:20.76+0530 [STG/0]      OUT -----> Downloading Spring Auto Reconfiguration 1.10.0_RELEASE from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.10.0_RELEASE.jar (found in cache)
+2016-12-02T20:24:31.50+0530 [STG/0]      OUT Exit status 0
+2016-12-02T20:24:31.50+0530 [STG/0]      OUT Staging complete
+2016-12-02T20:24:31.50+0530 [STG/0]      OUT Uploading droplet, build artifacts cache...
+2016-12-02T20:24:31.50+0530 [STG/0]      OUT Uploading build artifacts cache...
+2016-12-02T20:24:31.50+0530 [STG/0]      OUT Uploading droplet...
+2016-12-02T20:24:32.16+0530 [STG/0]      OUT Uploaded build artifacts cache (45.5M)
+2016-12-02T20:24:38.36+0530 [STG/0]      OUT Uploaded droplet (61.1M)
+2016-12-02T20:24:38.37+0530 [STG/0]      OUT Uploading complete
+2016-12-02T20:24:38.45+0530 [STG/0]      OUT Destroying container
+2016-12-02T20:24:39.19+0530 [STG/0]      OUT Successfully destroyed container
+2016-12-02T20:24:39.64+0530 [CELL/0]     OUT Creating container
+2016-12-02T20:24:40.89+0530 [CELL/0]     OUT Successfully created container
+2016-12-02T20:24:45.91+0530 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2016-12-02T20:24:45.91+0530 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2016-12-02T20:24:45.91+0530 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2016-12-02T20:24:45.91+0530 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2016-12-02T20:24:45.91+0530 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2016-12-02T20:24:45.91+0530 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2016-12-02T20:24:45.91+0530 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.3.5.RELEASE)
+2016-12-02T20:24:46.02+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:46.021  INFO 22 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2016-12-02T20:24:46.11+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:46.116  WARN 22 --- [           main] o.c.r.o.s.cloud.AbstractCloudConnector   : No suitable service info creator found for service hanaDb Did you forget to add a ServiceInfoCreator?
+2016-12-02T20:24:46.16+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:46.162  INFO 22 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2016-12-02T20:24:46.17+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:46.175  INFO 22 --- [           main] io.swagger.Swagger2SpringBoot            : Starting Swagger2SpringBoot on 20qnlup159k with PID 22 (/home/vcap/app started by vcap in /home/vcap/app)
+2016-12-02T20:24:46.17+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:46.175  INFO 22 --- [           main] io.swagger.Swagger2SpringBoot            : The following profiles are active: cloud
+2016-12-02T20:24:46.25+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:46.257  INFO 22 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63601f8c: startup date [Fri Dec 02 14:54:46 UTC 2016]; root of context hierarchy
+2016-12-02T20:24:47.80+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:47.807  INFO 22 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2016-12-02T20:24:47.81+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:47.809  INFO 22 --- [           main] urceCloudServiceBeanFactoryPostProcessor : No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+2016-12-02T20:24:47.90+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:47.902  INFO 22 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1fcfd15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-02T20:24:48.73+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:48.734  INFO 22 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-12-02T20:24:48.75+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:48.758  INFO 22 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-12-02T20:24:48.76+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:48.760  INFO 22 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-12-02T20:24:48.92+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:48.926  INFO 22 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-02T20:24:48.92+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:48.926  INFO 22 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2672 ms
+2016-12-02T20:24:49.25+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:49.252  WARN 22 --- [ost-startStop-1] uration$JodaDateTimeJacksonConfiguration : spring.jackson.date-format could not be used to configure formatting of Joda's DateTime. You may want to configure spring.jackson.joda-date-time-format as well.
+2016-12-02T20:24:49.51+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:49.515  INFO 22 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-02T20:24:49.52+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:49.522  INFO 22 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-02T20:24:49.52+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:49.523  INFO 22 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-02T20:24:49.52+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:49.524  INFO 22 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-02T20:24:49.52+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:49.524  INFO 22 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-02T20:24:49.61+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:49.617  INFO 22 --- [           main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: org.postgresql.Driver
+2016-12-02T20:24:50.51+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.511  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/placeorder],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.Statusinfo>> io.swagger.api.PlaceorderApiController.placeorderPost(io.swagger.model.Order)
+2016-12-02T20:24:50.51+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.514  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postUserInfo],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> io.swagger.api.PostUserInfoApiController.postUserInfoPost(io.swagger.model.UserInfo)
+2016-12-02T20:24:50.51+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.515  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/OrderStatus],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.Statusinfo>> io.swagger.api.OrderStatusApiController.orderStatusGet(java.lang.String,java.lang.String)
+2016-12-02T20:24:50.51+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.516  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getInterestedBuddies],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.ShareBuddyInfo>> io.swagger.api.GetInterestedBuddiesApiController.getInterestedBuddiesGet(java.lang.String,java.lang.String,java.lang.String)
+2016-12-02T20:24:50.51+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.517  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String io.swagger.configuration.HomeController.index()
+2016-12-02T20:24:50.51+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.518  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-12-02T20:24:50.53+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.530  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-12-02T20:24:50.53+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.531  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-12-02T20:24:50.53+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.536  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-12-02T20:24:50.54+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.542  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-02T20:24:50.54+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.543  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-02T20:24:50.90+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.901  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63601f8c: startup date [Fri Dec 02 14:54:46 UTC 2016]; root of context hierarchy
+2016-12-02T20:24:50.98+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.988  INFO 22 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T20:24:50.98+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:50.988  INFO 22 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T20:24:51.03+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:51.035  INFO 22 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T20:24:51.28+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:51.280  INFO 22 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-02T20:24:51.29+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:51.291  INFO 22 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-12-02T20:24:51.29+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:51.292  INFO 22 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2016-12-02T20:24:51.32+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:51.320  INFO 22 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2016-12-02T20:24:51.33+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:51.331  INFO 22 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2016-12-02T20:24:51.58+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:51.589  INFO 22 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-12-02T20:24:51.59+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:54:51.592  INFO 22 --- [           main] io.swagger.Swagger2SpringBoot            : Started Swagger2SpringBoot in 6.58 seconds (JVM running for 7.273)
+2016-12-02T20:28:33.12+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:58:33.123  INFO 22 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-02T20:28:33.12+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:58:33.123  INFO 22 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-02T20:28:33.13+0530 [APP/PROC/WEB/0]OUT 2016-12-02 14:58:33.137  INFO 22 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2016-12-02T20:28:33.69+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:33.692 +0000] "GET /webjars/springfox-swagger-ui/css/reset.css HTTP/1.1" 200 0 1066 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.129.92:40702 x_forwarded_for:"10.0.1.46, 10.0.129.92" x_forwarded_proto:"https" vcap_request_id:20a7196f-f490-4dc3-67bf-311266c2f94e response_time:0.005259751 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:28:33.95+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:33.947 +0000] "GET /webjars/springfox-swagger-ui/css/screen.css HTTP/1.1" 200 0 44551 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.129.92:40702 x_forwarded_for:"10.0.1.46, 10.0.129.92" x_forwarded_proto:"https" vcap_request_id:61f7a110-424b-4364-52f4-c23b91288ab4 response_time:0.005198192 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:28:33.97+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:33.966 +0000] "GET /webjars/springfox-swagger-ui/lib/jquery-1.8.0.min.js HTTP/1.1" 200 0 92555 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.129.92:40708 x_forwarded_for:"10.0.1.46, 10.0.129.92" x_forwarded_proto:"https" vcap_request_id:2b7dce5f-1760-46c8-777e-fa151512606b response_time:0.005948165 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:28:34.26+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:34.255 +0000] "GET /webjars/springfox-swagger-ui/lib/handlebars-2.0.0.js HTTP/1.1" 200 0 48517 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.65.94:35002 x_forwarded_for:"10.0.1.46, 10.0.65.94" x_forwarded_proto:"https" vcap_request_id:6905dba6-9263-4c70-5229-efbaf356cbb7 response_time:0.005165195 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:28:34.26+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:34.256 +0000] "GET /webjars/springfox-swagger-ui/lib/underscore-min.js HTTP/1.1" 200 0 15626 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.129.93:34326 x_forwarded_for:"10.0.1.46, 10.0.129.93" x_forwarded_proto:"https" vcap_request_id:a5a43cae-47c8-40d2-513f-283378e64416 response_time:0.005976327 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:28:34.86+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:34.862 +0000] "GET /webjars/springfox-swagger-ui/lib/swagger-oauth.js HTTP/1.1" 200 0 11183 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.129.92:40724 x_forwarded_for:"10.0.1.46, 10.0.129.92" x_forwarded_proto:"https" vcap_request_id:df96b6a9-20e3-4bd7-759b-f5dd9aa96f97 response_time:0.003846308 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:28:36.34+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:36.331 +0000] "GET /webjars/springfox-swagger-ui/fonts/DroidSans-Bold.ttf HTTP/1.1" 200 0 42480 "https://poolshoppe.cfapps.sap.hana.ondemand.com/webjars/springfox-swagger-ui/css/typography.css" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.129.93:34398 x_forwarded_for:"10.0.1.46, 10.0.129.93" x_forwarded_proto:"https" vcap_request_id:5f1f3f96-e495-4e6d-5b5f-1b073a115285 response_time:0.01284981 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:28:36.45+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:36.403 +0000] "GET /swagger-resources/configuration/ui HTTP/1.1" 200 0 205 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.65.94:35038 x_forwarded_for:"10.0.1.46, 10.0.65.94" x_forwarded_proto:"https" vcap_request_id:bbc72e3a-807c-4479-7681-ddff35f24d77 response_time:0.052617008 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:28:36.72+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:36.716 +0000] "GET /swagger-resources HTTP/1.1" 200 0 66 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.65.94:35038 x_forwarded_for:"10.0.1.46, 10.0.65.94" x_forwarded_proto:"https" vcap_request_id:6558d296-9691-4ec2-6a13-0e132edb5b6d response_time:0.01159546 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:28:38.09+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:14:58:38.094 +0000] "GET /webjars/springfox-swagger-ui/images/favicon-16x16.png HTTP/1.1" 200 0 645 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.129.93:34462 x_forwarded_for:"10.0.1.46, 10.0.129.93" x_forwarded_proto:"https" vcap_request_id:cfc98900-8412-4ba5-5947-e1b5684d2676 response_time:0.00390987 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:33:12.31+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:03:12.311  INFO 22 --- [io-8080-exec-10] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2016-12-02T20:33:12.39+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:03:12.396  INFO 22 --- [io-8080-exec-10] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:03:12.414 ERROR 22 --- [io-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [INSERT INTO OnlinePlaceOrderTable VALUES (:orderId, :custId, :productId, :addressPinCode, :addresslocation, :time, :status, :shareId)]; nested exception is org.postgresql.util.PSQLException: No hstore extension installed.] with root cause
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT org.postgresql.util.PSQLException: No hstore extension installed.
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgPreparedStatement.setMap(PgPreparedStatement.java:562) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgPreparedStatement.setObject(PgPreparedStatement.java:1048) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.StatementCreatorUtils.setValue(StatementCreatorUtils.java:426) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValueInternal(StatementCreatorUtils.java:235) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValue(StatementCreatorUtils.java:166) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.doSetValue(ArgumentPreparedStatementSetter.java:66) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.setValues(ArgumentPreparedStatementSetter.java:47) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:914) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:909) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:644) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:909) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:970) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:980) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at io.swagger.api.PlaceorderApiController.insertNamedParameter(PlaceorderApiController.java:67) ~[app/:na]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at io.swagger.api.PlaceorderApiController.placeorderPost(PlaceorderApiController.java:32) ~[app/:na]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:743) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:676) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_101]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_101]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:33:12.41+0530 [APP/PROC/WEB/0]OUT 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+2016-12-02T20:33:12.43+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:15:03:12.184 +0000] "POST /placeorder HTTP/1.1" 500 446 446 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.129.93:42582 x_forwarded_for:"10.0.1.46, 10.0.129.93" x_forwarded_proto:"https" vcap_request_id:8f5e8c9d-cd14-479e-632b-3bd93eecb0ee response_time:0.251783112 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:52:55.29+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"state"=>"STOPPED"})
+2016-12-02T20:52:55.31+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:22:55.313  INFO 22 --- [       Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63601f8c: startup date [Fri Dec 02 14:54:46 UTC 2016]; root of context hierarchy
+2016-12-02T20:52:55.31+0530 [CELL/0]     OUT Exit status 0
+2016-12-02T20:52:55.31+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:22:55.315  INFO 22 --- [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2016-12-02T20:52:55.31+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:22:55.317  INFO 22 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-02T20:52:55.41+0530 [APP/PROC/WEB/0]OUT Exit status 143
+2016-12-02T20:52:55.44+0530 [CELL/0]     OUT Destroying container
+2016-12-02T20:52:58.21+0530 [STG/0]      OUT Downloading sap_java_buildpack...
+2016-12-02T20:52:58.21+0530 [STG/0]      OUT Downloading nodejs_buildpack...
+2016-12-02T20:52:58.21+0530 [STG/0]      OUT Downloading php_buildpack...
+2016-12-02T20:52:58.21+0530 [STG/0]      OUT Downloading binary_buildpack...
+2016-12-02T20:52:58.21+0530 [STG/0]      OUT Downloading ruby_buildpack...
+2016-12-02T20:52:58.23+0530 [STG/0]      OUT Downloaded binary_buildpack
+2016-12-02T20:52:58.23+0530 [STG/0]      OUT Downloading staticfile_buildpack...
+2016-12-02T20:52:58.24+0530 [STG/0]      OUT Downloaded php_buildpack
+2016-12-02T20:52:58.24+0530 [STG/0]      OUT Downloading java_buildpack...
+2016-12-02T20:52:58.24+0530 [STG/0]      OUT Downloaded ruby_buildpack
+2016-12-02T20:52:58.24+0530 [STG/0]      OUT Downloading go_buildpack...
+2016-12-02T20:52:58.24+0530 [STG/0]      OUT Downloaded nodejs_buildpack
+2016-12-02T20:52:58.24+0530 [STG/0]      OUT Downloaded sap_java_buildpack
+2016-12-02T20:52:58.24+0530 [STG/0]      OUT Downloading python_buildpack...
+2016-12-02T20:52:58.26+0530 [STG/0]      OUT Downloaded python_buildpack
+2016-12-02T20:52:58.28+0530 [STG/0]      OUT Downloaded go_buildpack
+2016-12-02T20:52:58.28+0530 [STG/0]      OUT Downloaded java_buildpack
+2016-12-02T20:52:58.28+0530 [STG/0]      OUT Downloaded staticfile_buildpack
+2016-12-02T20:52:58.28+0530 [STG/0]      OUT Creating container
+2016-12-02T20:52:59.41+0530 [STG/0]      OUT Successfully created container
+2016-12-02T20:52:59.41+0530 [STG/0]      OUT Downloading app package...
+2016-12-02T20:53:00.51+0530 [STG/0]      OUT Downloaded app package (15.4M)
+2016-12-02T20:53:00.51+0530 [STG/0]      OUT Downloading build artifacts cache...
+2016-12-02T20:53:02.00+0530 [STG/0]      OUT Downloaded build artifacts cache (45.5M)
+2016-12-02T20:53:02.00+0530 [STG/0]      OUT Staging...
+2016-12-02T20:53:06.93+0530 [STG/0]      OUT -----> Java Buildpack Version: v3.9 | https://github.com/cloudfoundry/java-buildpack.git#b050954
+2016-12-02T20:53:08.05+0530 [STG/0]      OUT -----> Downloading Open Jdk JRE 1.8.0_101 from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_101.tar.gz (found in cache)
+2016-12-02T20:53:09.13+0530 [STG/0]      OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.0s)
+2016-12-02T20:53:09.55+0530 [STG/0]      OUT -----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (found in cache)
+2016-12-02T20:53:09.57+0530 [STG/0]      OUT        Memory Settings: -Xss349K -Xmx681574K -XX:MaxMetaspaceSize=104857K -Xms681574K -XX:MetaspaceSize=104857K
+2016-12-02T20:53:10.13+0530 [STG/0]      OUT -----> Downloading Postgresql JDBC 9.4.1212 from https://java-buildpack.cloudfoundry.org/postgresql-jdbc/postgresql-jdbc-9.4.1212.jar (found in cache)
+2016-12-02T20:53:10.54+0530 [STG/0]      OUT -----> Downloading Spring Auto Reconfiguration 1.10.0_RELEASE from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.10.0_RELEASE.jar (found in cache)
+2016-12-02T20:53:21.20+0530 [STG/0]      OUT Exit status 0
+2016-12-02T20:53:21.20+0530 [STG/0]      OUT Staging complete
+2016-12-02T20:53:21.20+0530 [STG/0]      OUT Uploading droplet, build artifacts cache...
+2016-12-02T20:53:21.20+0530 [STG/0]      OUT Uploading droplet...
+2016-12-02T20:53:21.20+0530 [STG/0]      OUT Uploading build artifacts cache...
+2016-12-02T20:53:21.91+0530 [STG/0]      OUT Uploaded build artifacts cache (45.5M)
+2016-12-02T20:53:27.35+0530 [STG/0]      OUT Uploaded droplet (61.1M)
+2016-12-02T20:53:27.36+0530 [STG/0]      OUT Uploading complete
+2016-12-02T20:53:27.42+0530 [STG/0]      OUT Destroying container
+2016-12-02T20:53:29.19+0530 [STG/0]      OUT Successfully destroyed container
+2016-12-02T20:54:37.48+0530 [CELL/0]     ERR Failed to destroy container
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValue(StatementCreatorUtils.java:166) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:737) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at io.swagger.api.PlaceorderApiController.insertNamedParameter(PlaceorderApiController.java:77) ~[app/:na]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at io.swagger.api.PlaceorderApiController.placeorderPost(PlaceorderApiController.java:32) ~[app/:na]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:676) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_101]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_101]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T20:54:38.07+0530 [APP/PROC/WEB/0]OUT 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+2016-12-02T20:54:38.10+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:15:24:37.684 +0000] "POST /placeorder HTTP/1.1" 500 446 434 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.65.94:42806 x_forwarded_for:"10.0.0.51, 10.0.65.94" x_forwarded_proto:"https" vcap_request_id:0537b615-cb68-4073-728a-5afeb9a8e10e response_time:0.425020267 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T20:58:54.37+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"name"=>"PoolShoppe", "memory"=>256, "environment_json"=>"PRIVATE DATA HIDDEN", "health_check_type"=>"none"})
+2016-12-02T20:59:12.89+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"state"=>"STOPPED"})
+2016-12-02T20:59:12.93+0530 [CELL/0]     OUT Exit status 0
+2016-12-02T20:59:12.93+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:12.933  INFO 13 --- [       Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63601f8c: startup date [Fri Dec 02 15:23:34 UTC 2016]; root of context hierarchy
+2016-12-02T20:59:12.93+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:12.936  INFO 13 --- [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2016-12-02T20:59:12.93+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:12.939  INFO 13 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-02T20:59:13.09+0530 [APP/PROC/WEB/0]OUT Exit status 143
+2016-12-02T20:59:13.15+0530 [CELL/0]     OUT Destroying container
+2016-12-02T20:59:13.74+0530 [CELL/0]     OUT Successfully destroyed container
+2016-12-02T20:59:15.50+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"state"=>"STARTED"})
+2016-12-02T20:59:15.80+0530 [STG/0]      OUT Downloading sap_java_buildpack...
+2016-12-02T20:59:15.80+0530 [STG/0]      OUT Downloading nodejs_buildpack...
+2016-12-02T20:59:15.80+0530 [STG/0]      OUT Downloading php_buildpack...
+2016-12-02T20:59:15.80+0530 [STG/0]      OUT Downloading go_buildpack...
+2016-12-02T20:59:15.80+0530 [STG/0]      OUT Downloading python_buildpack...
+2016-12-02T20:59:15.82+0530 [STG/0]      OUT Downloaded sap_java_buildpack
+2016-12-02T20:59:15.82+0530 [STG/0]      OUT Downloading ruby_buildpack...
+2016-12-02T20:59:15.82+0530 [STG/0]      OUT Downloaded python_buildpack
+2016-12-02T20:59:15.82+0530 [STG/0]      OUT Downloading staticfile_buildpack...
+2016-12-02T20:59:15.82+0530 [STG/0]      OUT Downloaded php_buildpack
+2016-12-02T20:59:15.82+0530 [STG/0]      OUT Downloading java_buildpack...
+2016-12-02T20:59:15.83+0530 [STG/0]      OUT Downloaded nodejs_buildpack
+2016-12-02T20:59:15.83+0530 [STG/0]      OUT Downloading binary_buildpack...
+2016-12-02T20:59:15.84+0530 [STG/0]      OUT Downloaded go_buildpack
+2016-12-02T20:59:15.84+0530 [STG/0]      OUT Downloaded ruby_buildpack
+2016-12-02T20:59:15.84+0530 [STG/0]      OUT Downloaded java_buildpack
+2016-12-02T20:59:15.85+0530 [STG/0]      OUT Downloaded staticfile_buildpack
+2016-12-02T20:59:15.87+0530 [STG/0]      OUT Downloaded binary_buildpack
+2016-12-02T20:59:15.87+0530 [STG/0]      OUT Creating container
+2016-12-02T20:59:16.99+0530 [STG/0]      OUT Successfully created container
+2016-12-02T20:59:16.99+0530 [STG/0]      OUT Downloading app package...
+2016-12-02T20:59:17.68+0530 [STG/0]      OUT Downloaded app package (15.4M)
+2016-12-02T20:59:17.68+0530 [STG/0]      OUT Downloading build artifacts cache...
+2016-12-02T20:59:19.22+0530 [STG/0]      OUT Downloaded build artifacts cache (45.5M)
+2016-12-02T20:59:19.22+0530 [STG/0]      OUT Staging...
+2016-12-02T20:59:21.23+0530 [STG/0]      OUT -----> Java Buildpack Version: v3.9 | https://github.com/cloudfoundry/java-buildpack.git#b050954
+2016-12-02T20:59:21.41+0530 [STG/0]      OUT -----> Downloading Open Jdk JRE 1.8.0_101 from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_101.tar.gz (found in cache)
+2016-12-02T20:59:22.49+0530 [STG/0]      OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.0s)
+2016-12-02T20:59:22.51+0530 [STG/0]      OUT -----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (found in cache)
+2016-12-02T20:59:22.54+0530 [STG/0]      OUT        Memory Settings: -Xss349K -Xmx681574K -XX:MaxMetaspaceSize=104857K -Xms681574K -XX:MetaspaceSize=104857K
+2016-12-02T20:59:22.56+0530 [STG/0]      OUT -----> Downloading Postgresql JDBC 9.4.1212 from https://java-buildpack.cloudfoundry.org/postgresql-jdbc/postgresql-jdbc-9.4.1212.jar (found in cache)
+2016-12-02T20:59:22.58+0530 [STG/0]      OUT -----> Downloading Spring Auto Reconfiguration 1.10.0_RELEASE from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.10.0_RELEASE.jar (found in cache)
+2016-12-02T20:59:31.88+0530 [STG/0]      OUT Exit status 0
+2016-12-02T20:59:31.88+0530 [STG/0]      OUT Staging complete
+2016-12-02T20:59:31.88+0530 [STG/0]      OUT Uploading droplet, build artifacts cache...
+2016-12-02T20:59:31.88+0530 [STG/0]      OUT Uploading droplet...
+2016-12-02T20:59:31.88+0530 [STG/0]      OUT Uploading build artifacts cache...
+2016-12-02T20:59:32.92+0530 [STG/0]      OUT Uploaded build artifacts cache (45.5M)
+2016-12-02T20:59:40.05+0530 [STG/0]      OUT Uploaded droplet (61.1M)
+2016-12-02T20:59:40.06+0530 [STG/0]      OUT Uploading complete
+2016-12-02T20:59:40.11+0530 [STG/0]      OUT Destroying container
+2016-12-02T20:59:40.73+0530 [CELL/0]     OUT Creating container
+2016-12-02T20:59:40.91+0530 [STG/0]      OUT Successfully destroyed container
+2016-12-02T20:59:42.18+0530 [CELL/0]     OUT Successfully created container
+2016-12-02T20:59:46.52+0530 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2016-12-02T20:59:46.52+0530 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2016-12-02T20:59:46.52+0530 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2016-12-02T20:59:46.52+0530 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2016-12-02T20:59:46.52+0530 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2016-12-02T20:59:46.52+0530 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2016-12-02T20:59:46.53+0530 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.3.5.RELEASE)
+2016-12-02T20:59:46.66+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:46.661  INFO 12 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2016-12-02T20:59:46.74+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:46.748  WARN 12 --- [           main] o.c.r.o.s.cloud.AbstractCloudConnector   : No suitable service info creator found for service hanaDb Did you forget to add a ServiceInfoCreator?
+2016-12-02T20:59:46.77+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:46.778  INFO 12 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2016-12-02T20:59:46.81+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:46.813  INFO 12 --- [           main] io.swagger.Swagger2SpringBoot            : Starting Swagger2SpringBoot on 1gfffh757he with PID 12 (/home/vcap/app started by vcap in /home/vcap/app)
+2016-12-02T20:59:46.81+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:46.814  INFO 12 --- [           main] io.swagger.Swagger2SpringBoot            : The following profiles are active: cloud
+2016-12-02T20:59:46.88+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:46.888  INFO 12 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63601f8c: startup date [Fri Dec 02 15:29:46 UTC 2016]; root of context hierarchy
+2016-12-02T20:59:48.24+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:48.245  INFO 12 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2016-12-02T20:59:48.24+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:48.246  INFO 12 --- [           main] urceCloudServiceBeanFactoryPostProcessor : No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+2016-12-02T20:59:48.33+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:48.334  INFO 12 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1fcfd15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-02T20:59:48.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:48.836  INFO 12 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-12-02T20:59:48.85+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:48.851  INFO 12 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-12-02T20:59:48.85+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:48.852  INFO 12 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-12-02T20:59:48.95+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:48.958  INFO 12 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-02T20:59:48.95+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:48.959  INFO 12 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2075 ms
+2016-12-02T20:59:49.22+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:49.226  WARN 12 --- [ost-startStop-1] uration$JodaDateTimeJacksonConfiguration : spring.jackson.date-format could not be used to configure formatting of Joda's DateTime. You may want to configure spring.jackson.joda-date-time-format as well.
+2016-12-02T20:59:49.42+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:49.427  INFO 12 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-02T20:59:49.43+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:49.435  INFO 12 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-02T20:59:49.43+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:49.436  INFO 12 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-02T20:59:49.43+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:49.437  INFO 12 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-02T20:59:49.43+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:49.437  INFO 12 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-02T20:59:49.53+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:49.529  INFO 12 --- [           main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: org.postgresql.Driver
+2016-12-02T20:59:50.13+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.135  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String io.swagger.configuration.HomeController.index()
+2016-12-02T20:59:50.13+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.137  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/OrderStatus],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.Statusinfo>> io.swagger.api.OrderStatusApiController.orderStatusGet(java.lang.String,java.lang.String)
+2016-12-02T20:59:50.13+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.139  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/placeorder],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.Statusinfo>> io.swagger.api.PlaceorderApiController.placeorderPost(io.swagger.model.Order)
+2016-12-02T20:59:50.14+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.139  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postUserInfo],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> io.swagger.api.PostUserInfoApiController.postUserInfoPost(io.swagger.model.UserInfo)
+2016-12-02T20:59:50.14+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.140  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getInterestedBuddies],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.ShareBuddyInfo>> io.swagger.api.GetInterestedBuddiesApiController.getInterestedBuddiesGet(java.lang.String,java.lang.String,java.lang.String)
+2016-12-02T20:59:50.14+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.141  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-12-02T20:59:50.15+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.150  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-12-02T20:59:50.15+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.151  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-12-02T20:59:50.15+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.152  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-12-02T20:59:50.15+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.157  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-02T20:59:50.15+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.157  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-02T20:59:50.40+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.405  INFO 12 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63601f8c: startup date [Fri Dec 02 15:29:46 UTC 2016]; root of context hierarchy
+2016-12-02T20:59:50.47+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.478  INFO 12 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T20:59:50.47+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.478  INFO 12 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T20:59:50.54+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.542  INFO 12 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T20:59:50.69+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.698  INFO 12 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-02T20:59:50.70+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.706  INFO 12 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-12-02T20:59:50.70+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.707  INFO 12 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2016-12-02T20:59:50.73+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.729  INFO 12 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2016-12-02T20:59:50.73+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.739  INFO 12 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2016-12-02T20:59:50.99+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.991  INFO 12 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-12-02T20:59:50.99+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:29:50.996  INFO 12 --- [           main] io.swagger.Swagger2SpringBoot            : Started Swagger2SpringBoot in 5.173 seconds (JVM running for 5.788)
+2016-12-02T21:00:36.34+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:30:36.345  INFO 12 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-02T21:00:36.34+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:30:36.345  INFO 12 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-02T21:00:36.36+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:30:36.360  INFO 12 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2016-12-02T21:00:36.66+0530 [APP/PROC/WEB/0]OUT Order placed
+2016-12-02T21:00:36.72+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:30:36.721  INFO 12 --- [nio-8080-exec-1] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2016-12-02T21:00:36.79+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:30:36.797  INFO 12 --- [nio-8080-exec-1] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:30:36.826 ERROR 12 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT * FROM OnlinePlaceOrderTable WHERE Time '2016-12-02 15:30:36' AND Addresspincode = '123456' AND Status='""' ORDER BY Time]; nested exception is org.postgresql.util.PSQLException: ERROR: argument of AND must be type boolean, not type time without time zone
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT   Position: 48] with root cause
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT org.postgresql.util.PSQLException: ERROR: argument of AND must be type boolean, not type time without time zone
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT   Position: 48
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2155) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:288) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:430) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:356) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:303) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:289) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:266) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:233) ~[postgresql_jdbc-9.4.1212.jar!/:9.4.1212]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:455) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:405) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:471) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:481) ~[spring-jdbc-4.1.6.RELEASE.jar!/:4.1.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at io.swagger.api.PlaceorderApiController.insertNamedParameter(PlaceorderApiController.java:66) ~[app/:na]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at io.swagger.api.PlaceorderApiController.placeorderPost(PlaceorderApiController.java:32) ~[app/:na]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:743) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843) ~[spring-webmvc-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.6.RELEASE.jar!/:4.2.6.RELEASE]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212) ~[tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:676) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_101]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_101]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.33.jar!/:8.0.33]
+2016-12-02T21:00:36.82+0530 [APP/PROC/WEB/0]OUT 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+2016-12-02T21:00:36.90+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:15:30:36.289 +0000] "POST /placeorder HTTP/1.1" 500 446 497 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.65.94:49006 x_forwarded_for:"10.0.0.51, 10.0.65.94" x_forwarded_proto:"https" vcap_request_id:d2006dd1-3a66-4891-6d56-418bcf7b3908 response_time:0.617110947 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T21:05:56.49+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"name"=>"PoolShoppe", "memory"=>256, "environment_json"=>"PRIVATE DATA HIDDEN", "health_check_type"=>"none"})
+2016-12-02T21:06:20.04+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"state"=>"STOPPED"})
+2016-12-02T21:06:20.04+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:20.045  INFO 12 --- [       Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63601f8c: startup date [Fri Dec 02 15:29:46 UTC 2016]; root of context hierarchy
+2016-12-02T21:06:20.04+0530 [CELL/0]     OUT Exit status 0
+2016-12-02T21:06:20.05+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:20.051  INFO 12 --- [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2016-12-02T21:06:20.05+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:20.053  INFO 12 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-02T21:06:20.14+0530 [APP/PROC/WEB/0]OUT Exit status 143
+2016-12-02T21:06:20.17+0530 [CELL/0]     OUT Destroying container
+2016-12-02T21:06:20.72+0530 [CELL/0]     OUT Successfully destroyed container
+2016-12-02T21:06:22.84+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"state"=>"STARTED"})
+2016-12-02T21:06:23.22+0530 [STG/0]      OUT Downloading sap_java_buildpack...
+2016-12-02T21:06:23.22+0530 [STG/0]      OUT Downloading nodejs_buildpack...
+2016-12-02T21:06:23.22+0530 [STG/0]      OUT Downloading go_buildpack...
+2016-12-02T21:06:23.22+0530 [STG/0]      OUT Downloading staticfile_buildpack...
+2016-12-02T21:06:23.23+0530 [STG/0]      OUT Downloading python_buildpack...
+2016-12-02T21:06:23.25+0530 [STG/0]      OUT Downloaded sap_java_buildpack
+2016-12-02T21:06:23.25+0530 [STG/0]      OUT Downloading binary_buildpack...
+2016-12-02T21:06:23.25+0530 [STG/0]      OUT Downloaded go_buildpack
+2016-12-02T21:06:23.25+0530 [STG/0]      OUT Downloading php_buildpack...
+2016-12-02T21:06:23.25+0530 [STG/0]      OUT Downloaded staticfile_buildpack
+2016-12-02T21:06:23.25+0530 [STG/0]      OUT Downloading java_buildpack...
+2016-12-02T21:06:23.25+0530 [STG/0]      OUT Downloaded nodejs_buildpack
+2016-12-02T21:06:23.25+0530 [STG/0]      OUT Downloading ruby_buildpack...
+2016-12-02T21:06:23.26+0530 [STG/0]      OUT Downloaded python_buildpack
+2016-12-02T21:06:23.27+0530 [STG/0]      OUT Downloaded java_buildpack
+2016-12-02T21:06:23.27+0530 [STG/0]      OUT Downloaded ruby_buildpack
+2016-12-02T21:06:23.27+0530 [STG/0]      OUT Downloaded php_buildpack
+2016-12-02T21:06:23.29+0530 [STG/0]      OUT Downloaded binary_buildpack
+2016-12-02T21:06:23.29+0530 [STG/0]      OUT Creating container
+2016-12-02T21:06:24.23+0530 [STG/0]      OUT Successfully created container
+2016-12-02T21:06:24.23+0530 [STG/0]      OUT Downloading app package...
+2016-12-02T21:06:24.93+0530 [STG/0]      OUT Downloaded app package (15.4M)
+2016-12-02T21:06:24.93+0530 [STG/0]      OUT Downloading build artifacts cache...
+2016-12-02T21:06:27.15+0530 [STG/0]      OUT Downloaded build artifacts cache (45.5M)
+2016-12-02T21:06:27.15+0530 [STG/0]      OUT Staging...
+2016-12-02T21:06:29.56+0530 [STG/0]      OUT -----> Java Buildpack Version: v3.9 | https://github.com/cloudfoundry/java-buildpack.git#b050954
+2016-12-02T21:06:29.74+0530 [STG/0]      OUT -----> Downloading Open Jdk JRE 1.8.0_101 from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_101.tar.gz (found in cache)
+2016-12-02T21:06:30.82+0530 [STG/0]      OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.0s)
+2016-12-02T21:06:30.84+0530 [STG/0]      OUT -----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (found in cache)
+2016-12-02T21:06:30.87+0530 [STG/0]      OUT        Memory Settings: -Xmx681574K -XX:MaxMetaspaceSize=104857K -Xss349K -Xms681574K -XX:MetaspaceSize=104857K
+2016-12-02T21:06:30.89+0530 [STG/0]      OUT -----> Downloading Postgresql JDBC 9.4.1212 from https://java-buildpack.cloudfoundry.org/postgresql-jdbc/postgresql-jdbc-9.4.1212.jar (found in cache)
+2016-12-02T21:06:30.92+0530 [STG/0]      OUT -----> Downloading Spring Auto Reconfiguration 1.10.0_RELEASE from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.10.0_RELEASE.jar (found in cache)
+2016-12-02T21:06:40.02+0530 [STG/0]      OUT Exit status 0
+2016-12-02T21:06:40.02+0530 [STG/0]      OUT Staging complete
+2016-12-02T21:06:40.02+0530 [STG/0]      OUT Uploading droplet, build artifacts cache...
+2016-12-02T21:06:40.02+0530 [STG/0]      OUT Uploading droplet...
+2016-12-02T21:06:40.02+0530 [STG/0]      OUT Uploading build artifacts cache...
+2016-12-02T21:06:41.08+0530 [STG/0]      OUT Uploaded build artifacts cache (45.5M)
+2016-12-02T21:06:48.32+0530 [STG/0]      OUT Uploaded droplet (61.1M)
+2016-12-02T21:06:48.32+0530 [STG/0]      OUT Uploading complete
+2016-12-02T21:06:48.37+0530 [STG/0]      OUT Destroying container
+2016-12-02T21:06:49.07+0530 [CELL/0]     OUT Creating container
+2016-12-02T21:06:51.51+0530 [CELL/0]     OUT Successfully created container
+2016-12-02T21:06:52.13+0530 [STG/0]      OUT Successfully destroyed container
+2016-12-02T21:06:55.74+0530 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2016-12-02T21:06:55.74+0530 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2016-12-02T21:06:55.74+0530 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2016-12-02T21:06:55.74+0530 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2016-12-02T21:06:55.74+0530 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2016-12-02T21:06:55.74+0530 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2016-12-02T21:06:55.74+0530 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.3.5.RELEASE)
+2016-12-02T21:06:55.94+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:55.940  INFO 19 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2016-12-02T21:06:56.02+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:56.027  WARN 19 --- [           main] o.c.r.o.s.cloud.AbstractCloudConnector   : No suitable service info creator found for service hanaDb Did you forget to add a ServiceInfoCreator?
+2016-12-02T21:06:56.07+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:56.070  INFO 19 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2016-12-02T21:06:56.09+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:56.089  INFO 19 --- [           main] io.swagger.Swagger2SpringBoot            : Starting Swagger2SpringBoot on 1geqp32bqgi with PID 19 (/home/vcap/app started by vcap in /home/vcap/app)
+2016-12-02T21:06:56.09+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:56.089  INFO 19 --- [           main] io.swagger.Swagger2SpringBoot            : The following profiles are active: cloud
+2016-12-02T21:06:56.16+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:56.168  INFO 19 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e0d3a64: startup date [Fri Dec 02 15:36:56 UTC 2016]; root of context hierarchy
+2016-12-02T21:06:57.56+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:57.564  INFO 19 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2016-12-02T21:06:57.56+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:57.566  INFO 19 --- [           main] urceCloudServiceBeanFactoryPostProcessor : No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+2016-12-02T21:06:57.66+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:57.659  INFO 19 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b76553f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-02T21:06:58.13+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.132  INFO 19 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-12-02T21:06:58.14+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.145  INFO 19 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-12-02T21:06:58.14+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.147  INFO 19 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-12-02T21:06:58.24+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.243  INFO 19 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-02T21:06:58.24+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.243  INFO 19 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2080 ms
+2016-12-02T21:06:58.44+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.443  WARN 19 --- [ost-startStop-1] uration$JodaDateTimeJacksonConfiguration : spring.jackson.date-format could not be used to configure formatting of Joda's DateTime. You may want to configure spring.jackson.joda-date-time-format as well.
+2016-12-02T21:06:58.61+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.613  INFO 19 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-02T21:06:58.61+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.618  INFO 19 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-02T21:06:58.61+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.618  INFO 19 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-02T21:06:58.61+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.618  INFO 19 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-02T21:06:58.61+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.619  INFO 19 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-02T21:06:58.72+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:58.727  INFO 19 --- [           main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: org.postgresql.Driver
+2016-12-02T21:06:59.32+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.322  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/placeorder],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.Statusinfo>> io.swagger.api.PlaceorderApiController.placeorderPost(io.swagger.model.Order)
+2016-12-02T21:06:59.32+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.325  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postUserInfo],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> io.swagger.api.PostUserInfoApiController.postUserInfoPost(io.swagger.model.UserInfo)
+2016-12-02T21:06:59.32+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.326  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/OrderStatus],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.Statusinfo>> io.swagger.api.OrderStatusApiController.orderStatusGet(java.lang.String,java.lang.String)
+2016-12-02T21:06:59.32+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.327  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getInterestedBuddies],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.ShareBuddyInfo>> io.swagger.api.GetInterestedBuddiesApiController.getInterestedBuddiesGet(java.lang.String,java.lang.String,java.lang.String)
+2016-12-02T21:06:59.32+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.328  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String io.swagger.configuration.HomeController.index()
+2016-12-02T21:06:59.33+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.329  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-12-02T21:06:59.33+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.338  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-12-02T21:06:59.33+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.339  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-12-02T21:06:59.34+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.340  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-12-02T21:06:59.34+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.345  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-02T21:06:59.34+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.346  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-02T21:06:59.68+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.687  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e0d3a64: startup date [Fri Dec 02 15:36:56 UTC 2016]; root of context hierarchy
+2016-12-02T21:06:59.76+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.759  INFO 19 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T21:06:59.76+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.759  INFO 19 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T21:06:59.81+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:36:59.811  INFO 19 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T21:07:00.09+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:00.089  INFO 19 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-02T21:07:00.10+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:00.105  INFO 19 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-12-02T21:07:00.10+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:00.106  INFO 19 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2016-12-02T21:07:00.15+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:00.152  INFO 19 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2016-12-02T21:07:00.16+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:00.164  INFO 19 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2016-12-02T21:07:00.49+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:00.482  INFO 19 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-12-02T21:07:00.49+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:00.496  INFO 19 --- [           main] io.swagger.Swagger2SpringBoot            : Started Swagger2SpringBoot in 5.427 seconds (JVM running for 6.088)
+2016-12-02T21:07:46.30+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:46.308  INFO 19 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-02T21:07:46.30+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:46.308  INFO 19 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-02T21:07:46.32+0530 [APP/PROC/WEB/0]OUT 2016-12-02 15:37:46.325  INFO 19 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2016-12-02T21:07:46.52+0530 [APP/PROC/WEB/0]OUT Order placed
+2016-12-02T21:07:46.55+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:15:37:46.240 +0000] "POST /placeorder HTTP/1.1" 200 446 0 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.65.95:32988 x_forwarded_for:"10.0.0.51, 10.0.65.95" x_forwarded_proto:"https" vcap_request_id:5946d731-4b75-4845-64ec-a824562e43a7 response_time:0.309473498 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T21:10:25.86+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:15:40:25.816 +0000] "POST /placeorder HTTP/1.1" 200 444 0 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.65.95:53868 x_forwarded_for:"10.0.0.51, 10.0.65.95" x_forwarded_proto:"https" vcap_request_id:7bc63847-6b39-4e22-6f9d-b4806d7958f8 response_time:0.049372421 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0
+2016-12-02T21:10:25.86+0530 [APP/PROC/WEB/0]OUT Order placed
+2016-12-02T21:47:18.53+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"name"=>"PoolShoppe", "memory"=>256, "environment_json"=>"PRIVATE DATA HIDDEN", "health_check_type"=>"none"})
+2016-12-02T21:47:36.88+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"state"=>"STOPPED"})
+2016-12-02T21:47:36.89+0530 [CELL/0]     OUT Exit status 0
+2016-12-02T21:47:36.93+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:17:36.932  INFO 19 --- [       Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e0d3a64: startup date [Fri Dec 02 15:36:56 UTC 2016]; root of context hierarchy
+2016-12-02T21:47:36.96+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:17:36.960  INFO 19 --- [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2016-12-02T21:47:36.98+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:17:36.981  INFO 19 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-02T21:47:37.09+0530 [APP/PROC/WEB/0]OUT Exit status 143
+2016-12-02T21:47:37.13+0530 [CELL/0]     OUT Destroying container
+2016-12-02T21:47:39.61+0530 [API/0]      OUT Updated app with guid 7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 ({"state"=>"STARTED"})
+2016-12-02T21:47:40.07+0530 [STG/0]      OUT Downloading cf-sec-group-check...
+2016-12-02T21:47:40.07+0530 [STG/0]      OUT Downloading php_buildpack...
+2016-12-02T21:47:40.07+0530 [STG/0]      OUT Downloading binary_buildpack...
+2016-12-02T21:47:40.07+0530 [STG/0]      OUT Downloading go_buildpack...
+2016-12-02T21:47:40.07+0530 [STG/0]      OUT Downloading sap_java_buildpack...
+2016-12-02T21:47:40.09+0530 [STG/0]      OUT Downloaded binary_buildpack
+2016-12-02T21:47:40.09+0530 [STG/0]      OUT Downloading python_buildpack...
+2016-12-02T21:47:40.09+0530 [STG/0]      OUT Downloaded go_buildpack
+2016-12-02T21:47:40.09+0530 [STG/0]      OUT Downloading staticfile_buildpack...
+2016-12-02T21:47:40.09+0530 [STG/0]      OUT Downloaded php_buildpack
+2016-12-02T21:47:40.09+0530 [STG/0]      OUT Downloading java_buildpack...
+2016-12-02T21:47:40.11+0530 [STG/0]      OUT Downloaded staticfile_buildpack
+2016-12-02T21:47:40.11+0530 [STG/0]      OUT Downloading ruby_buildpack...
+2016-12-02T21:47:40.12+0530 [STG/0]      OUT Downloaded java_buildpack
+2016-12-02T21:47:40.12+0530 [STG/0]      OUT Downloading nodejs_buildpack...
+2016-12-02T21:47:40.13+0530 [STG/0]      OUT Downloaded ruby_buildpack
+2016-12-02T21:47:40.13+0530 [STG/0]      OUT Downloaded python_buildpack
+2016-12-02T21:47:40.13+0530 [STG/0]      OUT Downloaded sap_java_buildpack
+2016-12-02T21:47:40.14+0530 [STG/0]      OUT Downloaded cf-sec-group-check (3.9K)
+2016-12-02T21:47:40.14+0530 [STG/0]      OUT Downloaded nodejs_buildpack
+2016-12-02T21:47:40.14+0530 [STG/0]      OUT Creating container
+2016-12-02T21:47:41.14+0530 [STG/0]      OUT Successfully created container
+2016-12-02T21:47:41.14+0530 [STG/0]      OUT Downloading app package...
+2016-12-02T21:47:42.01+0530 [STG/0]      OUT Downloaded app package (15.4M)
+2016-12-02T21:47:42.01+0530 [STG/0]      OUT Downloading build artifacts cache...
+2016-12-02T21:47:43.63+0530 [STG/0]      OUT Downloaded build artifacts cache (45.5M)
+2016-12-02T21:47:43.63+0530 [STG/0]      OUT Staging...
+2016-12-02T21:47:48.49+0530 [STG/0]      OUT -----> Java Buildpack Version: v3.9 | https://github.com/cloudfoundry/java-buildpack.git#b050954
+2016-12-02T21:47:49.47+0530 [STG/0]      OUT -----> Downloading Open Jdk JRE 1.8.0_101 from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_101.tar.gz (found in cache)
+2016-12-02T21:47:50.58+0530 [STG/0]      OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.1s)
+2016-12-02T21:47:51.00+0530 [STG/0]      OUT -----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (found in cache)
+2016-12-02T21:47:51.03+0530 [STG/0]      OUT        Memory Settings: -Xmx681574K -XX:MaxMetaspaceSize=104857K -Xms681574K -XX:MetaspaceSize=104857K -Xss349K
+2016-12-02T21:47:51.45+0530 [STG/0]      OUT -----> Downloading Postgresql JDBC 9.4.1212 from https://java-buildpack.cloudfoundry.org/postgresql-jdbc/postgresql-jdbc-9.4.1212.jar (found in cache)
+2016-12-02T21:47:51.86+0530 [STG/0]      OUT -----> Downloading Spring Auto Reconfiguration 1.10.0_RELEASE from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.10.0_RELEASE.jar (found in cache)
+2016-12-02T21:48:02.66+0530 [STG/0]      OUT Exit status 0
+2016-12-02T21:48:02.66+0530 [STG/0]      OUT Staging complete
+2016-12-02T21:48:02.66+0530 [STG/0]      OUT Uploading droplet, build artifacts cache...
+2016-12-02T21:48:02.66+0530 [STG/0]      OUT Uploading build artifacts cache...
+2016-12-02T21:48:02.66+0530 [STG/0]      OUT Uploading droplet...
+2016-12-02T21:48:03.61+0530 [STG/0]      OUT Uploaded build artifacts cache (45.5M)
+2016-12-02T21:48:07.78+0530 [STG/0]      OUT Uploaded droplet (61.1M)
+2016-12-02T21:48:07.79+0530 [STG/0]      OUT Uploading complete
+2016-12-02T21:48:07.83+0530 [STG/0]      OUT Destroying container
+2016-12-02T21:48:08.44+0530 [CELL/0]     OUT Creating container
+2016-12-02T21:48:10.16+0530 [STG/0]      OUT Successfully destroyed container
+2016-12-02T21:48:10.23+0530 [CELL/0]     OUT Successfully created container
+2016-12-02T21:48:14.34+0530 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2016-12-02T21:48:14.34+0530 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2016-12-02T21:48:14.34+0530 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2016-12-02T21:48:14.34+0530 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2016-12-02T21:48:14.34+0530 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2016-12-02T21:48:14.34+0530 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2016-12-02T21:48:14.35+0530 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.3.5.RELEASE)
+2016-12-02T21:48:14.49+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:14.490  INFO 22 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2016-12-02T21:48:14.59+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:14.592  WARN 22 --- [           main] o.c.r.o.s.cloud.AbstractCloudConnector   : No suitable service info creator found for service hanaDb Did you forget to add a ServiceInfoCreator?
+2016-12-02T21:48:14.62+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:14.622  INFO 22 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2016-12-02T21:48:14.64+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:14.647  INFO 22 --- [           main] io.swagger.Swagger2SpringBoot            : Starting Swagger2SpringBoot on 1gd3h660jq5 with PID 22 (/home/vcap/app started by vcap in /home/vcap/app)
+2016-12-02T21:48:14.64+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:14.647  INFO 22 --- [           main] io.swagger.Swagger2SpringBoot            : The following profiles are active: cloud
+2016-12-02T21:48:14.75+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:14.751  INFO 22 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@700a4fd3: startup date [Fri Dec 02 16:18:14 UTC 2016]; root of context hierarchy
+2016-12-02T21:48:16.07+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:16.076  INFO 22 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2016-12-02T21:48:16.07+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:16.079  INFO 22 --- [           main] urceCloudServiceBeanFactoryPostProcessor : No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+2016-12-02T21:48:16.17+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:16.170  INFO 22 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39b165e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-02T21:48:16.60+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:16.605  INFO 22 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-12-02T21:48:16.62+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:16.624  INFO 22 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-12-02T21:48:16.62+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:16.626  INFO 22 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-12-02T21:48:16.75+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:16.749  INFO 22 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-02T21:48:16.75+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:16.750  INFO 22 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2006 ms
+2016-12-02T21:48:16.96+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:16.962  WARN 22 --- [ost-startStop-1] uration$JodaDateTimeJacksonConfiguration : spring.jackson.date-format could not be used to configure formatting of Joda's DateTime. You may want to configure spring.jackson.joda-date-time-format as well.
+2016-12-02T21:48:17.11+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.115  INFO 22 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-02T21:48:17.12+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.120  INFO 22 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-02T21:48:17.12+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.120  INFO 22 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-02T21:48:17.12+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.120  INFO 22 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-02T21:48:17.12+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.121  INFO 22 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-02T21:48:17.22+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.223  INFO 22 --- [           main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: org.postgresql.Driver
+2016-12-02T21:48:17.82+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.826  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String io.swagger.configuration.HomeController.index()
+2016-12-02T21:48:17.82+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.829  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getInterestedBuddies],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.ShareBuddyInfo>> io.swagger.api.GetInterestedBuddiesApiController.getInterestedBuddiesGet(java.lang.String,java.lang.String,java.lang.String)
+2016-12-02T21:48:17.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.829  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postUserInfo],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> io.swagger.api.PostUserInfoApiController.postUserInfoPost(io.swagger.model.UserInfo)
+2016-12-02T21:48:17.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.832  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/placeorder],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.Statusinfo>> io.swagger.api.PlaceorderApiController.placeorderPost(io.swagger.model.Order)
+2016-12-02T21:48:17.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.833  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/OrderStatus],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.swagger.model.Statusinfo>> io.swagger.api.OrderStatusApiController.orderStatusGet(java.lang.String,java.lang.String)
+2016-12-02T21:48:17.83+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.834  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-12-02T21:48:17.84+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.847  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-12-02T21:48:17.84+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.848  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-12-02T21:48:17.85+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.854  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-12-02T21:48:17.85+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.858  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-02T21:48:17.86+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:17.859  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-02T21:48:18.08+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.082  INFO 22 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@700a4fd3: startup date [Fri Dec 02 16:18:14 UTC 2016]; root of context hierarchy
+2016-12-02T21:48:18.13+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.136  INFO 22 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T21:48:18.13+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.136  INFO 22 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T21:48:18.17+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.177  INFO 22 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-02T21:48:18.34+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.342  INFO 22 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-02T21:48:18.35+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.351  INFO 22 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-12-02T21:48:18.35+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.351  INFO 22 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2016-12-02T21:48:18.37+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.372  INFO 22 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2016-12-02T21:48:18.38+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.381  INFO 22 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2016-12-02T21:48:18.60+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.606  INFO 22 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-12-02T21:48:18.61+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:18:18.611  INFO 22 --- [           main] io.swagger.Swagger2SpringBoot            : Started Swagger2SpringBoot in 4.998 seconds (JVM running for 5.534)
+2016-12-02T21:49:02.00+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:19:02.008  INFO 22 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-02T21:49:02.00+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:19:02.008  INFO 22 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-02T21:49:02.02+0530 [APP/PROC/WEB/0]OUT 2016-12-02 16:19:02.024  INFO 22 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2016-12-02T21:49:02.21+0530 [APP/PROC/WEB/0]OUT Order placed
+2016-12-02T21:49:02.26+0530 [RTR/0]      OUT poolshoppe.cfapps.sap.hana.ondemand.com - [02/12/2016:16:19:01.963 +0000] "POST /placeorder HTTP/1.1" 200 444 0 "https://poolshoppe.cfapps.sap.hana.ondemand.com/swagger-ui.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 10.0.129.92:43552 x_forwarded_for:"10.0.0.51, 10.0.129.92" x_forwarded_proto:"https" vcap_request_id:254e9096-d4c3-4653-6b1d-6bb235e2a1ca response_time:0.300213557 app_id:7213d0fc-f4a6-4334-92e4-7dbd0e2f4525 app_index:0

@@ -1,0 +1,90 @@
+<ion-view view-title="PoolShoppe">
+   	<section id="offers">
+<!-- 		<div class="row"> <!-- ionic row
+		  <div class="col col-50 col-offset-50"> 
+		  		<div class="list list-inset">
+				  <label class="item item-input">
+				    <i class="icon ion-search placeholder-icon"></i>
+				    <input type="text" placeholder="Search" ng-model="searchOffer">
+				  </label>
+				</div>
+		  </div>
+		</div> -->
+		<!-- carousel -->
+		<div class="container">
+		  <br>
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		    </ol>
+
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner" role="listbox">
+		      <div class="item active">
+		        <img src="img/carousel-1.jpg" alt="Chania" width="460" height="345">
+		      </div>
+
+		      <div class="item">
+		        <img src="img/carousel-2.jpg" alt="Chania" width="460" height="345">
+		      </div>
+		    </div>
+
+		    <!-- Left and right controls -->
+		    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		      <span class="sr-only">Next</span>
+		    </a>
+		  </div>
+		</div>
+
+		<div  class="card"  
+			  ng-repeat="offer in offers | filter:searchOffer">
+			<div class="item item-text-wrap" ng-click="navigateToDetailsPage(offer)"> 
+			  	<div class="row">
+			  		<div class="col-xs-9">
+			  			<p class="offer-details">
+			  				<h1 style="font-size: 20px !important;">{{offer.title}}</h1>
+			  			</p>	     	
+			  		</div>	
+			  		<div class="col-xs-1">
+			  			<div class="provider pull-right">
+			  				<img height="30" width="45" ng-src="{{offer.providerLogo}}" style="position: absolute;">
+			  			</div>
+			  		</div>			  		
+			  	</div>	 
+			  	<div class="row">	
+			  		<div class="col-xs-2"></div>
+			  		<div class="col-xs-8"></div>	
+			  		<div class="col-xs-4">
+			  			<p class="user-interest pull-right">	  		
+			  				<span class="users-count">{{offer.interestedUserCount}}</span>
+					  		<span class="ion-heart"></span>
+						</p>
+			  		</div>
+			  	</div>
+			</div>	  
+		</div>	
+
+		<footer>
+			<div class="row">
+				<div class="col">
+					<button class="button button-full button-energized" ng-click="navigateToPayment()">
+						Sort &nbsp<span class="glyphicon glyphicon-sort-by-attributes"></span>
+					</button>
+				</div>
+				<div class="col">
+					<button class="button button-full button-energized" ng-click="navigateToPayment()"/>
+						Filter&nbsp<span class="glyphicon glyphicon-filter"></span>
+					</footer>	
+				</div>
+			</div>			
+		</footer>
+
+ 	</section>
+</ion-view>

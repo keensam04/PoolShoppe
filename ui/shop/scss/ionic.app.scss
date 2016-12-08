@@ -1,0 +1,27 @@
+
+
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+
+@import "www/lib/ionic/scss/ionic";
+
+@import "./shared/_variables.scss";
+@import "./shared/_shared.scss";
+
+@import "./offers/_variables.scss";
+@import "./offers/_offers.scss";
+
+@import "./details/_variables.scss";
+@import "./details/_details.scss";
+
+@import "./details-offline/_variables.scss";
+@import "./details-offline/_details-offline.scss";
+
+@import "./side-menu/_variables.scss";
+@import "./side-menu/_side-menu.scss";
+
+@import "./wallet/_variables.scss";
+@import "./wallet/_wallet.scss";
+
+@import "./address/_variables.scss";
+@import "./address/_address.scss";

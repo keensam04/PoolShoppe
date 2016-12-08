@@ -1,0 +1,19 @@
+#details_offline {
+	margin-top : $offers_section_margin_top;
+	padding	: $offers_section_padding;
+	height:100%;
+	overflow : auto;
+	padding-bottom : 65px;	
+
+	.merchant-description {
+		background-color : #fff;
+		padding : $offers_section_padding;
+		& > .item  {
+			border : #fff;
+			.merchant-name {
+				color: #949494;
+    			font-weight: 400;
+			}
+		}
+	}
+}

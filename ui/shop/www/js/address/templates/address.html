@@ -1,0 +1,52 @@
+<ion-view view-title="Details">
+	<section id="address">
+		<div class="card">
+			<div class="item item-text-wrap">
+				 <h2>Select Address</h2>
+			</div>			
+		</div>
+		<div class="pick-up-location">
+			<div class="form-group">
+				<input type="radio" name="address" value="pickup" ng-model="deliveryType" ng-change="setDeliveryOption()">
+				<h4 class="addrss">Collect from pick up location</h4>
+			</div>
+
+			<div class="card pick-up-address" >
+				<div class="item item-text-wrap">
+					<p>
+						Sap labs india pvt
+						ltd. No .138 , Epip
+						area , whitefield
+						Bangalore - 560066
+						Karnataka
+						Ph: 8971388004
+					</p>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="drop-location">		
+			<div class="form-group">
+				<input type="radio" name="address" value="deliver" ng-model="deliveryType" ng-change="setDeliveryOption()">
+				<h4 class="addrss">Drop location</h4>
+			</div>
+			<div class="card drop-address" >
+				<div class="item item-text-wrap">
+					<p>{{userInfo.address.addressLine1}}</p>
+					<p>{{userInfo.address.addressLine2}}</p>
+					<p>{{userInfo.address.landmark}}</p>
+					<p>{{userInfo.address.city}} - {{userInfo.address.pinCode}}, {{userInfo.address.state}}</p>
+					<p>Ph: {{userInfo.address.mobileNumber}}</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="payment">
+			<button class="button button-full button-balanced" ng-click="placeOrder()">
+				Pay ({{netPayableAmount}})
+			</button>
+		</div>
+		
+	</section>
+</ion-view>

@@ -1,0 +1,94 @@
+<ion-view view-title="Details">
+	<section id="details">		
+		<div class="merchant-description ">
+			<div class="row item ">
+				<div class="col-50">
+					<span class="merchant-name"> {{selectedOffer.provider}}</span>
+				</div>
+				<div class="col-50">
+					<img class="pull-right" ng-src="{{selectedOffer.providerLogo}}" height="30" width="30">
+				</div>
+			</div>	
+		</div>	
+		<a href="{{selectedOffer.url}}" target="_blank">
+		<div class="card offer">
+			<div class="item item-text-wrap">
+				<div class="row">
+					<div class="col">
+						<div class="offer-details">
+							<div class="offer-name">
+								<h2 >{{selectedOffer.title}}</h2>
+							</div>
+							<div class="offer-description">
+								<p> <span>{{selectedOffer.description}}</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</a>
+		<div class="card cart">
+			<div class="item item-text-wrap">
+				 <div class="row">
+				 	<div class="col-50">
+				 		<span>Cart</span>
+				 	</div>
+				 	<div class="col-50">
+				 		 <span class="pull-right glyphicon glyphicon-shopping-cart">{{cartTotal}}</span>
+				 	</div>
+				 </div>
+			</div>
+			<div class="add-product-section">
+				<div class="row item">
+					<div class="col">
+						<div class="item item-input-inset">
+						    <label class="item-input-wrapper">
+						      <input type="text" placeholder="Product Url" ng-model="productUrlInput">
+						    </label>
+						    <button class="button button-small button-energized" ng-click="addProductToCart()">
+						      Add Product
+						    </button>
+						 </div>
+					</div>
+				</div>
+			</div>
+			<div  class="card cart-details"  ng-repeat="product in cartDetails">
+				<div class="item item-text-wrap"> 
+				  	<div class="row">
+				  		<div class="col-xs-2">
+				  			<a href="" ng-click="navigateToOffer(product.productURL)">
+				  				<img height="70" width="30" ng-src="{{product.imageUrls._200x200}}">
+				  			</a>			  			
+				  		</div>
+				  		<div class="col-xs-9">
+				  			<p class="product-name">
+				  				<span>{{product.productTitle}}</span>
+				  			</p> 	     	
+				  			<p class="product-attributes">
+				  				<p ng-repeat="attribute in product.attributes">
+				  					<span>{{attribute.attributeName}}</span>					  					
+				  					<span> &nbsp : &nbsp</span>
+				  					<span>{{attribute.attributeValue}}</span>
+
+				  					{{attribute.quantity}}
+				  					<input  style=" float:right ;height:100% ; display: inline; border:1px solid" ng-if="$index === 0" type="text" ng-model="product.quantity">
+				  					<span style=" float:right " ng-if="$index === 0">Quantity : &nbsp&nbsp</span>
+				  				</p>				  				
+				  			</p>	
+				  			<p class="product-price">
+				  				<span> Price&nbsp:&nbsp</span>
+				  				<span class="product-price">{{product.sp}}</span>	
+				  			</p>
+				  		</div>			  		
+				  	</div>	 				  	
+				</div>	  
+			</div>
+		</div>
+		<footer>
+			<button class="button button-full button-balanced" ng-click="navigateToPayment()">
+			  Proceed to Payment
+			</button>
+		</footer>
+	</section>
+</ion-view>
