@@ -64,7 +64,7 @@ factory('Utilities',['$rootScope', '$http','schemas','RESTSvc','$state',
 
         //call to server to place order
         placeOrder : function(payload) {
-            return RESTSvc.post("https://poolshoppe.cfapps.sap.hana.ondemand.com/placeorder", payload, {"Content-Type":"application/json"});
+            return RESTSvc.post(<url>, payload, {"Content-Type":"application/json"});
         }
     };
 
